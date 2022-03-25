@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body onload="loaded()">
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Sales</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td><input id="pId" type="number"></td>
+            <td><input id="pName" type="text"></td>
+            <td><input id="pSales" type="number"></td>
+        </tbody>
+    </table>
+    <!-- button 1 -->
+    <!-- <button onclick="add()">Add</button> -->
+    <!-- button 2 -->
+    <button id="addBtn">Add</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Sales</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+</body>
+</html>
