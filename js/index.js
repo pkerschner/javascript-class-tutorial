@@ -1,10 +1,12 @@
+/*
 // button 2
-$().ready(
+$().ready(() => {
+
     $("#addBtn").on("click", () => {
         add();
-    })
-);
-
+    });
+});
+*/
 
 class Customer {
     id;
@@ -54,7 +56,6 @@ const display = (custs) => {
     }
 }
 
-// button 1
 const add = () => {
     let inpIdCtrl = document.getElementById("pId");
     let inpNameCtrl = document.getElementById("pName");
